@@ -1,0 +1,11 @@
+{
+  "appId": "org.capacitor.quasar.app",
+  "appName": "Quasar App",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "url": "https://10.14.143.187:9500"
+  }
+}

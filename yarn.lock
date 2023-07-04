@@ -7,6 +7,18 @@
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.22.5.tgz"
   integrity sha512-DFZMC9LJUG9PLOclRC32G63UXwzqS2koQC8dkx+PLdmt1xSePYpbT/NbsrJy8Q/muXz7o/h/d4A7Fuyixm559Q==
 
+"@capacitor/core@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.npmmirror.com/@capacitor/core/-/core-5.1.0.tgz#fab9985a0e54f5636c1f7c3692ca04b2ecdc9e9d"
+  integrity sha512-lQDcQ0WKwyhFdtOXxyB+szxlTscGZeOk1tgNVrTg4glnF4k92RrC3uD4LQ27ITFwjBmTNPvOS3vyLz6B3I3JeA==
+  dependencies:
+    tslib "^2.1.0"
+
+"@capacitor/splash-screen@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.npmmirror.com/@capacitor/splash-screen/-/splash-screen-5.0.5.tgz#f73c6a1b4272734634a595f7c7871f7233df91e8"
+  integrity sha512-KOBHE3YCfTXDnDz348ZTLeH1vrS8Cq+UpXlouzlGW8KwssUlXodRIsO5cQz1xK3VM+UJVm7iDQUONZFAcIMQeg==
+
 "@esbuild/linux-loong64@0.14.54":
   version "0.14.54"
   resolved "https://registry.npmmirror.com/@esbuild/linux-loong64/-/linux-loong64-0.14.54.tgz#de2a4be678bd4d0d1ffbb86e6de779cde5999028"

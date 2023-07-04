@@ -6,6 +6,11 @@
   "webDir": "www",
   "server": {
     "androidScheme": "https",
-    "url": "https://10.14.143.187:9500"
+    "url": "https://10.14.143.106:9500"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
   }
 }

@@ -6,6 +6,8 @@ PODS:
   - CapacitorCordova (5.0.5)
   - CapacitorGeolocation (5.0.4):
     - Capacitor
+  - CapacitorSplashScreen (5.0.5):
+    - Capacitor
   - CapacitorStatusBar (5.0.4):
     - Capacitor
   - CapacitorToast (5.0.4):
@@ -18,6 +20,7 @@ DEPENDENCIES:
   - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
   - "CapacitorToast (from `../../node_modules/@capacitor/toast`)"
   - "JcesarmobileSslSkip (from `../../node_modules/@jcesarmobile/ssl-skip`)"
@@ -31,6 +34,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorGeolocation:
     :path: "../../node_modules/@capacitor/geolocation"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
   CapacitorToast:
@@ -43,10 +48,11 @@ SPEC CHECKSUMS:
   CapacitorApp: 7a5dec8b33573707164b293475d5c89ba684364a
   CapacitorCordova: f8c06b897c74ee8f7701fe10e6443b40822bc83a
   CapacitorGeolocation: 33015be1ef496585a60da9efa1c5642ff8624db3
+  CapacitorSplashScreen: e563abf6d590bfe0269515ccc9d8bc03c41f32e9
   CapacitorStatusBar: 190e0321b8734f4244d0c81baa183a00d5806ddf
   CapacitorToast: fcc4329f01d06cf02f190f8f5ce7f16509a2263c
   JcesarmobileSslSkip: c41af6d8f679d128666d64e4495863ce7b69a764
 
-PODFILE CHECKSUM: 88d71d550e78e75788bb34a56b6f18455c31dc20
+PODFILE CHECKSUM: 56dc8504ca978f41a9347d8d34e6575e3746632f
 
 COCOAPODS: 1.11.3

@@ -13,6 +13,8 @@
     "build": "quasar build"
   },
   "dependencies": {
+    "@capacitor/core": "^5.1.0",
+    "@capacitor/splash-screen": "^5.0.5",
     "@ionic/pwa-elements": "^3.1.1",
     "@quasar/extras": "^1.0.0",
     "mapbox-gl": "^2.15.0",

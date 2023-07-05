@@ -8,6 +8,10 @@ const routes = [
     path: "/test",
     component: () => import("pages/TestPlugin.vue"),
   },
+  {
+    path: "/scannertest",
+    component: () => import("pages/TestScanner.vue"),
+  },
 
   // Always leave this as last one,
   // but you can also remove it

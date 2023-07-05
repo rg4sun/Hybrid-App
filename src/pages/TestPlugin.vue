@@ -1,10 +1,21 @@
 <template>
   <div class="page-container">
-    <h3>Test page</h3>
+    <!-- <h3>Test page</h3> -->
 
-    <div>
+    <div class="location-txt">
       GPS position: <strong>{{ position }}</strong>
       <router-link to="/">Home</router-link>
+
+      <hr />
+
+      <!-- <q-btn label="Take Photo" @click="takePhoto" /> -->
+      <q-btn label="Scan" @click="askUser" />
+
+      <div>
+        <img :src="imgSrc" :width="3 * 50" :height="4 * 50" />
+        <video ref="scannerVideo"></video>
+        <div>{{ scanResult }}</div>
+      </div>
     </div>
 
     <div id="map" ref="{mapContainerRef}"></div>
@@ -13,9 +24,12 @@
 
 <script>
 import { Geolocation } from "@capacitor/geolocation";
-// import { StatusBar } from "@capacitor/geolocation";
+import { StatusBar } from "@capacitor/status-bar";
 import { Toast } from "@capacitor/toast";
 import mapboxgl from "../utils/MapboxConfig.js";
+import { Camera, CameraResultType } from "@capacitor/camera";
+import { Quagga } from "quagga";
+import { BarcodeScanner } from "@capacitor-community/barcode-scanner";
 
 export default {
   name: "TestPlugin",
@@ -23,6 +37,8 @@ export default {
     return {
       position: null,
       map: null,
+      imgSrc: null,
+      scanResult: null,
     };
   },
   methods: {
@@ -123,9 +139,89 @@ export default {
       //   });
       // });
     },
+    async takePhoto() {
+      const image = await Camera.getPhoto({
+        quality: 90,
+        allowEditing: false,
+        // resultType: CameraResultType.Uri,
+        resultType: CameraResultType.DataUrl,
+      });
+
+      // this.imgSrc = image.webPath;
+      this.imgSrc = image.dataUrl;
+      console.log("Image:", image);
+    },
+    scan_unwork() {
+      const qConfig = {
+        inputStream: {
+          name: "Live",
+          type: "LiveStream",
+          target: this.$refs.scannerVideo,
+        },
+        decoder: {
+          readers: ["qrcode_reader"],
+        },
+      };
+
+      Quagga.init(qConfig, (err) => {
+        if (err) {
+          console.error("初始化 Quagga 失败：", err);
+          return;
+        }
+        console.log("Quagga 初始化成功");
+
+        Quagga.onDetected(function (result) {
+          const code = result.codeResult.code;
+          this.result = code;
+        });
+
+        Quagga.start();
+      });
+    },
+    async scan() {
+      // Check camera permission
+      // This is just a simple example, check out the better checks below
+      await BarcodeScanner.checkPermission({ force: true });
+
+      // make background of WebView transparent
+      // note: if you are using ionic this might not be enough, check below
+      BarcodeScanner.hideBackground();
+
+      const result = await BarcodeScanner.startScan(); // start scanning and wait for a result
+
+      // if the result has content
+      if (result.hasContent) {
+        console.log(result.content); // log the raw scanned content
+      }
+    },
+    async startScan() {
+      console.log("In startScan");
+      BarcodeScanner.hideBackground();
+
+      const result = await BarcodeScanner.startScan();
+      if (result.hasContent) {
+        console.log(result.content);
+      }
+    },
+    stopScan() {
+      BarcodeScanner.showBackground();
+      BarcodeScanner.stopScan();
+    },
+    askUser() {
+      BarcodeScanner.prepare();
+
+      const c = confirm("Do you want to scan a barcode?");
+
+      if (c) {
+        console.log("Ans: ", c);
+        this.startScan();
+      } else {
+        this.stopScan();
+      }
+    },
   },
   mounted() {
-    // StatusBar.hide();
+    StatusBar.hide();
 
     this.reqLocationPermisstion();
 
@@ -145,5 +241,16 @@ export default {
 #map {
   width: 100vw;
   height: 100vh;
+}
+
+.location-txt {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  z-index: 99;
+  background-color: burlywood;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
 }
 </style>

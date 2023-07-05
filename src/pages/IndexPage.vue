@@ -6,7 +6,8 @@
       style="width: 200px; height: 200px"
     /> -->
     <div>
-      <router-link to="/test">Plugin Test</router-link>
+      <router-link to="/test">Location+camera Test</router-link> |
+      <router-link to="/scannertest">Scanner Test</router-link>
     </div>
   </q-page>
 </template>

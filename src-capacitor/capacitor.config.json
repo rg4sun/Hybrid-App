@@ -1,12 +1,12 @@
 {
   "appId": "org.capacitor.quasar.app",
-  "appName": "Quasar App",
+  "appName": "Hybrid Test",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "www",
   "server": {
     "androidScheme": "https",
-    "url": "https://10.14.143.106:9500"
+    "url": "https://10.14.141.245:9500"
   },
   "plugins": {
     "SplashScreen": {

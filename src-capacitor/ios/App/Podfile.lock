@@ -1,16 +1,20 @@
 PODS:
-  - Capacitor (5.0.5):
+  - Capacitor (5.1.0):
     - CapacitorCordova
-  - CapacitorApp (5.0.3):
+  - CapacitorApp (5.0.5):
     - Capacitor
-  - CapacitorCordova (5.0.5)
-  - CapacitorGeolocation (5.0.4):
+  - CapacitorCamera (5.0.5):
+    - Capacitor
+  - CapacitorCommunityBarcodeScanner (4.0.1):
+    - Capacitor
+  - CapacitorCordova (5.1.0)
+  - CapacitorGeolocation (5.0.5):
     - Capacitor
   - CapacitorSplashScreen (5.0.5):
     - Capacitor
-  - CapacitorStatusBar (5.0.4):
+  - CapacitorStatusBar (5.0.5):
     - Capacitor
-  - CapacitorToast (5.0.4):
+  - CapacitorToast (5.0.5):
     - Capacitor
   - JcesarmobileSslSkip (0.2.0):
     - Capacitor
@@ -18,6 +22,8 @@ PODS:
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCamera (from `../../node_modules/@capacitor/camera`)"
+  - "CapacitorCommunityBarcodeScanner (from `../../node_modules/@capacitor-community/barcode-scanner`)"
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
   - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
@@ -30,6 +36,10 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorApp:
     :path: "../../node_modules/@capacitor/app"
+  CapacitorCamera:
+    :path: "../../node_modules/@capacitor/camera"
+  CapacitorCommunityBarcodeScanner:
+    :path: "../../node_modules/@capacitor-community/barcode-scanner"
   CapacitorCordova:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorGeolocation:
@@ -44,15 +54,17 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@jcesarmobile/ssl-skip"
 
 SPEC CHECKSUMS:
-  Capacitor: b1248915663add1bd6567e2b67c1c1fa3abcf5e8
-  CapacitorApp: 7a5dec8b33573707164b293475d5c89ba684364a
-  CapacitorCordova: f8c06b897c74ee8f7701fe10e6443b40822bc83a
-  CapacitorGeolocation: 33015be1ef496585a60da9efa1c5642ff8624db3
+  Capacitor: 8dc4a61c44f6644fe4e0b61ad01ff175f9b538e5
+  CapacitorApp: 9d91a5a400e4ad8cafe66a02cc9d8073c864d7bb
+  CapacitorCamera: 834aade2952a06bd1e46c078d1068a980f37f8c9
+  CapacitorCommunityBarcodeScanner: 7feb206489c8555a8ca0c74c57ddf49ead774eb8
+  CapacitorCordova: 5984fa700842461518ecd320905c7f19ecdd590b
+  CapacitorGeolocation: 82f2dfc2e6b9ebff53bb5af85f8cf0c06da354e9
   CapacitorSplashScreen: e563abf6d590bfe0269515ccc9d8bc03c41f32e9
-  CapacitorStatusBar: 190e0321b8734f4244d0c81baa183a00d5806ddf
-  CapacitorToast: fcc4329f01d06cf02f190f8f5ce7f16509a2263c
+  CapacitorStatusBar: 540867ac3c63875b65bebd888f695de50a13a9a2
+  CapacitorToast: 77841e9091bea87db10e55b48747d958d76b1fe0
   JcesarmobileSslSkip: c41af6d8f679d128666d64e4495863ce7b69a764
 
-PODFILE CHECKSUM: 56dc8504ca978f41a9347d8d34e6575e3746632f
+PODFILE CHECKSUM: 41ca9291485953f302c9956eda92217380619cc8
 
 COCOAPODS: 1.11.3

@@ -20,7 +20,11 @@ export default defineComponent({
   },
   mounted() {
     (async () => {
-      await SplashScreen.hide();
+      setTimeout(() => {
+        SplashScreen.hide().then(() => {
+          console.log("persist launching for 3s...");
+        });
+      }, 3000);
     })();
   },
 });

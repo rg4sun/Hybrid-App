@@ -1,41 +1,24 @@
-# Quasar App (hybrid-test)
+# Blood Hero App (hybrid-test)
 
-A Quasar Project
+**Author:** rg4sun
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+**Contact:** rg4sun@gmail.com/@163.com
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
+All rights reserved.
 
 
 
-### Build the app for production
-```bash
-quasar build
-```
+## UI Prototypes
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+The UI Prototypes are totally designed by R.G.(rg4sun) using Figma. 
+
+<img src="./.md-imgs/README.assets/UI-Proto-beta.svg" alt="UI-Proto-beta" style="zoom:50%;" />
+
+
+
+## Updating
+
+The Blood Hero App is being cooked by R.G.(rg4sun). Please wait warmly until it is ready.
+
+The actual Blood Hero App source code (updated daily) is hosted on Git Soton at [hs5n22 / Blood-Hero · GitLab (soton.ac.uk)](https://git.soton.ac.uk/hs5n22/blood-hero) and will not be released to Github until the MSc Project is officially completed.
+

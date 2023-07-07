@@ -12,7 +12,7 @@ All rights reserved.
 
 The UI Prototypes are totally designed by R.G.(rg4sun) using Figma. 
 
-<img src="./.md-imgs/README.assets/UI-Proto-beta.svg" alt="UI-Proto-beta" style="zoom:50%;" />
+<img src="./.md-imgs/README.assets/UI-Proto-beta.pdf" alt="UI-Proto-beta" style="zoom:50%;" />
 
 
 

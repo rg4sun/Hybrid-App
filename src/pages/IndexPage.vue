@@ -6,8 +6,9 @@
       style="width: 200px; height: 200px"
     /> -->
     <div>
-      <router-link to="/test">Location+camera Test</router-link> |
-      <router-link to="/scannertest">Scanner Test</router-link>
+      <router-link to="/map">Location/map Test</router-link> |
+      <router-link to="/camera">Camera Test</router-link> |
+      <router-link to="/scanner">Scanner Test</router-link>
     </div>
   </q-page>
 </template>

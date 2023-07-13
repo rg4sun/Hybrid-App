@@ -6,7 +6,7 @@
   "webDir": "www",
   "server": {
     "androidScheme": "https",
-    "url": "https://10.14.141.245:9500"
+    "url": "https://10.14.143.127:9500"
   },
   "plugins": {
     "SplashScreen": {

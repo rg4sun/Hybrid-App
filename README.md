@@ -8,6 +8,12 @@ All rights reserved.
 
 
 
+# Progress
+
+![git-log](./.md-imgs/README.assets/git-log.png)
+
+
+
 ## UI Prototypes
 
 The UI Prototypes are totally designed by R.G.(rg4sun) using Figma. 

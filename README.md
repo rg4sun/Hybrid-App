@@ -2,7 +2,7 @@
 
 **Author:** rg4sun
 
-**Contact:** rg4sun@gmail.com/@163.com
+**Contact:** <rg4sun@gmail.com>/@163.com
 
 All rights reserved.
 
@@ -14,35 +14,31 @@ All rights reserved.
 
 ## 技术框架
 
-+ **UI 设计: ** Figma
++ **UI 设计:**  Figma
 
-+ **前端框架: **Quasar(Vue Based)
-+ **UI 框架: ** Quasar UI Components
-+ **移动端跨平台Runtime: **Capacitor
++ **前端框架:** Quasar(Vue Based)
++ **UI 框架:**  Quasar UI Components
++ **移动端跨平台Runtime:** Capacitor
   + 移动端生成代码（Mobile Native Code）:
     + iOS: Swift
     + Android: Kotlin, Java
-+ **地图相关模块实现: **Mapbox + Capacitor Geolocation Plugin
-+ **消息推送模块实现: **
++ **地图相关模块实现:** Mapbox + Capacitor Geolocation Plugin
++ **消息推送模块实现:**
   + Capacitor Push Notification Plugin + Firebase Cloud Messaging (FCM) + Apple Push Notification service (APNs)
-+ **移动端设备缓存: ** Capacitor Preferences Plugin
-+ **后台任务实现: **Capacitor Background Runner Plugin
-+ **相机模块+扫码模块实现: **
++ **移动端设备缓存:**  Capacitor Preferences Plugin
++ **后台任务实现:** Capacitor Background Runner Plugin
++ **相机模块+扫码模块实现:**
   + Capacitor Camera Plugin + Barcode Scanner Plugin + JsBarcode + QRCode.js
-+ **后台服务器: **Node + Express
-+ **云数据库: **Cloud Firebase（Non-SQL）
-+ **语法规范工具: **ESLint + Prettier
-+ **打包工具: **Vite
-
-
++ **后台服务器:** Node + Express
++ **云数据库:** Cloud Firebase（Non-SQL）
++ **语法规范工具:** ESLint + Prettier
++ **打包工具:** Vite
 
 ## UI Prototypes
 
-The UI Prototypes are totally designed by R.G.(rg4sun) using Figma. 
+The UI Prototypes are totally designed by R.G.(rg4sun) using Figma.
 
 <img src="./.md-imgs/README.assets/UI-Proto-beta.png" alt="UI-Proto-beta" style="zoom:50%;" />
-
-
 
 ## Updating
 
@@ -50,12 +46,10 @@ The Blood Hero App is being cooked by R.G.(rg4sun). Please wait warmly until it 
 
 The actual Blood Hero App source code (updated daily) is hosted on Git Soton at
 
-+  [hs5n22 / Blood-Hero · GitLab (soton.ac.uk)](https://git.soton.ac.uk/hs5n22/blood-hero) 
++ [hs5n22 / Blood-Hero · GitLab (soton.ac.uk)](https://git.soton.ac.uk/hs5n22/blood-hero)
 + [hs5n22 / Blood-Hero-Server · GitLab (soton.ac.uk)](https://git.soton.ac.uk/hs5n22/blood-hero-server)
 
 and will not be released to Github until the MSc Project is officially completed.
-
-
 
 ## Progress
 
@@ -67,9 +61,7 @@ and will not be released to Github until the MSc Project is officially completed
 
 ![image-20230731160720481](./.md-imgs/README.assets/image-20230731160720481.png)
 
-
-
-### Blood Hero Server 
+### Blood Hero Server
 
 ![image-20230731160909510](./.md-imgs/README.assets/image-20230731160909510.png)
 

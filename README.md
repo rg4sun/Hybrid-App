@@ -6,6 +6,34 @@
 
 All rights reserved.
 
+> 本项目使用 **跨平台混合开发技术** 实现。
+>
+> 借助 Quasar(Vue) + Capacitor 实现 Web Native Apps。
+>
+> 简单来说，使用 Web 技术开发，通过Capactiro 提供 mobie native runtime 将 web code 生成 mobile native code (iOS:Swift, Android: Kotlin/Java)，达到一码多用，多平台设计统一的跨平台App实现。
+
+## 技术框架
+
++ **UI 设计：** Figma
+
++ **前端框架：**Quasar(Vue Based)
++ **UI 框架:** Quasar UI Components
++ **移动端跨平台Runtime：**Capacitor
+  + 移动端生成代码（Mobile Native Code）:
+    + iOS: Swift
+    + Android: Kotlin, Java
++ **地图相关模块实现：**Mapbox + Capacitor Geolocation Plugin
++ **消息推送模块实现：**
+  + Capacitor Push Notification Plugin + Firebase Cloud Messaging (FCM) + Apple Push Notification service (APNs)
++ **移动端设备缓存：** Capacitor Preferences Plugin
++ **后台任务实现：**Capacitor Background Runner Plugin
++ **相机模块+扫码模块实现：**
+  + Capacitor Camera Plugin + Barcode Scanner Plugin + JsBarcode + QRCode.js
++ **后台服务器：**Node + Express
++ **云数据库：**Cloud Firebase（Non-SQL）
++ **语法规范工具：**ESLint + Prettier
++ **打包工具：**Vite
+
 
 
 ## UI Prototypes
@@ -33,17 +61,16 @@ and will not be released to Github until the MSc Project is officially completed
 
 ### Client App Side
 
-![image-20230727174211626](./.md-imgs/README.assets/image-20230727174211626.png)
+![image-20230731160601858](./.md-imgs/README.assets/image-20230731160601858.png)
 
-![image-20230727174259956](./.md-imgs/README.assets/image-20230727174259956.png)
+![image-20230731160650647](./.md-imgs/README.assets/image-20230731160650647.png)
 
-![image-20230727174412114](./.md-imgs/README.assets/image-20230727174412114.png)
+![image-20230731160720481](./.md-imgs/README.assets/image-20230731160720481.png)
 
 
 
 ### Blood Hero Server 
 
-![image-20230727174605284](./.md-imgs/README.assets/image-20230727174605284.png)
+![image-20230731160909510](./.md-imgs/README.assets/image-20230731160909510.png)
 
-
-
+![image-20230731160933617](./.md-imgs/README.assets/image-20230731160933617.png)

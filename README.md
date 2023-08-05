@@ -12,7 +12,7 @@ All rights reserved.
 >
 > 简单来说，使用 Web 技术开发，通过Capactiro 提供 mobie native runtime 将 web code 生成 mobile native code (iOS:Swift, Android: Kotlin/Java)，达到一码多用，多平台设计统一的跨平台App实现。
 >
-> **==该项目预计与加纳某地政府合作，有望投入当地市场进行试运行。==**
+> **==该项目预计与加纳某地政府合作，有望投入当地市场进行试运行==**
 
 ## 技术框架
 

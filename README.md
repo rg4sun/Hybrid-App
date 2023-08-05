@@ -55,16 +55,19 @@ and will not be released to Github until the MSc Project is officially completed
 
 ### Client App Side
 
-![image-20230803172501130](./.md-imgs/README.assets/image-20230803172501130.png)
+![image-20230805172746084](./.md-imgs/README.assets/image-20230805172746084.png)
 
-![image-20230803172613004](./.md-imgs/README.assets/image-20230803172613004.png)
+![image-20230805172836278](./.md-imgs/README.assets/image-20230805172836278.png)
 
-![image-20230803172646822](./.md-imgs/README.assets/image-20230803172646822.png)
+![image-20230805172903591](./.md-imgs/README.assets/image-20230805172903591.png)
+
+![image-20230805172944458](./.md-imgs/README.assets/image-20230805172944458.png)
 
 
 
 ### Blood Hero Server
 
-![image-20230731160909510](./.md-imgs/README.assets/image-20230731160909510.png)
+![image-20230805173037242](./.md-imgs/README.assets/image-20230805173037242.png)
 
-![image-20230731160933617](./.md-imgs/README.assets/image-20230731160933617.png)
+![image-20230805173059931](./.md-imgs/README.assets/image-20230805173059931.png)
+

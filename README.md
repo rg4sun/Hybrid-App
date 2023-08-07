@@ -25,13 +25,16 @@ All rights reserved.
     + iOS: Swift
     + Android: Kotlin, Java
 + **地图相关模块实现:** Mapbox + Capacitor Geolocation Plugin
++ **实时通信模块实现:**
+  + Websocket(Socket.io) + 消息推送模块(见下述)
+
 + **消息推送模块实现:**
   + Capacitor Push Notification Plugin + Firebase Cloud Messaging (FCM) + Apple Push Notification service (APNs)
 + **移动端设备缓存:**  Capacitor Preferences Plugin
 + **后台任务实现:** Capacitor Background Runner Plugin
 + **相机模块+扫码模块实现:**
   + Capacitor Camera Plugin + Barcode Scanner Plugin + JsBarcode + QRCode.js
-+ **后台服务器:** Node + Express
++ **后台服务器:** Node + Express + Socket.io
 + **云数据库:** Cloud Firebase（Non-SQL）
 + **语法规范工具:** ESLint + Prettier
 + **打包工具:** Vite

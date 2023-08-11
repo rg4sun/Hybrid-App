@@ -6,13 +6,15 @@
 
 All rights reserved.
 
-> 本项目使用 **跨平台混合开发技术** 实现。
+> 本项目使用 **跨平台混合开发技术** 实现，项目的UI设计、前/后端代码开发全部由 rg4sun 一人开发。
 >
 > 借助 Quasar(Vue) + Capacitor 实现 Web Native Apps。
 >
 > 简单来说，使用 Web 技术开发，通过Capactiro 提供 mobie native runtime 将 web code 生成 mobile native code (iOS:Swift, Android: Kotlin/Java)，达到一码多用，多平台设计统一的跨平台App实现。
 
 **👉 该项目预计与加纳某地政府合作，有望投入当地市场进行试运行 👈**
+
+> 当前开发进度及代码量参见 <a href="#Progress">Progress</a> 节，目前代码量：***10,243***  行（仅统计核心 Vue + Node.js + JS 代码）
 
 ## 技术框架
 
@@ -60,13 +62,13 @@ and will not be released to Github until the MSc Project is officially completed
 
 ### Client App Side
 
-![image-20230805172746084](./.md-imgs/README.assets/image-20230805172746084.png)
+![image-20230811193938124](./.md-imgs/README.assets/image-20230811193938124.png)
 
-![image-20230805172836278](./.md-imgs/README.assets/image-20230805172836278.png)
+![image-20230811194018046](./.md-imgs/README.assets/image-20230811194018046.png)
 
-![image-20230805172903591](./.md-imgs/README.assets/image-20230805172903591.png)
+![image-20230811194042728](./.md-imgs/README.assets/image-20230811194042728.png)
 
-![image-20230805172944458](./.md-imgs/README.assets/image-20230805172944458.png)
+![image-20230811194119069](./.md-imgs/README.assets/image-20230811194119069.png)
 
 
 

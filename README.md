@@ -14,7 +14,7 @@ All rights reserved.
 
 **👉 该项目预计与加纳某地政府合作，有望投入当地市场进行试运行 👈**
 
-> 当前开发进度及代码量参见 <a href="#Progress">Progress</a> 节，目前代码量：***10,243***  行（仅统计核心 Vue + Node.js + JS 代码）
+> 当前开发进度及代码量参见 <a href="#progress">Progress</a> 节，目前代码量：***10,243***  行（仅统计核心 Vue + Node.js + JS 代码）
 
 ## 技术框架
 

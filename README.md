@@ -62,19 +62,21 @@ and will not be released to Github until the MSc Project is officially completed
 
 ### Client App Side
 
-![image-20230811193938124](./.md-imgs/README.assets/image-20230811193938124.png)
+![image-20230813224812629](./.md-imgs/README.assets/image-20230813224812629.png)
 
-![image-20230811194018046](./.md-imgs/README.assets/image-20230811194018046.png)
+![image-20230813224848146](./.md-imgs/README.assets/image-20230813224848146.png)
 
-![image-20230811194042728](./.md-imgs/README.assets/image-20230811194042728.png)
+![image-20230813224910767](./.md-imgs/README.assets/image-20230813224910767.png)
 
-![image-20230811194119069](./.md-imgs/README.assets/image-20230811194119069.png)
+![image-20230813224934875](./.md-imgs/README.assets/image-20230813224934875.png)
+
+![image-20230813224953165](./.md-imgs/README.assets/image-20230813224953165.png)
 
 
 
 ### Blood Hero Server
 
-![image-20230805173037242](./.md-imgs/README.assets/image-20230805173037242.png)
+![image-20230813225134200](./.md-imgs/README.assets/image-20230813225134200.png)
 
-![image-20230805173059931](./.md-imgs/README.assets/image-20230805173059931.png)
+![image-20230813225147697](./.md-imgs/README.assets/image-20230813225147697.png)
 
